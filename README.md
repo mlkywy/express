@@ -30,7 +30,7 @@ DATABASE=notesdb
 
 ### Database Setup
 
-In order to run and view the server locally, you must create and setup a PostgreSQL database. You may be prompted to enter the password you set when you installed PostgreSQL.
+In order to run and view the server locally, you must create and setup PostgreSQL. You may be prompted to enter the password you set when you installed PostgreSQL.
 
 ```
 psql -U postgres
@@ -70,4 +70,18 @@ To view all notes in your table:
 
 ```sql
 SELECT * FROM notes;
+```
+
+### Running the Application
+
+To run the server, cd into server and run the following command:
+
+```
+npm run dev
+```
+
+To run the client, cd into client and run the following command:
+
+```
+npm start
 ```
