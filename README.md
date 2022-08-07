@@ -30,7 +30,7 @@ DATABASE=notesdb
 
 ### Database Setup
 
-In order to run and view the server locally, you must create and setup PostgreSQL. You may be prompted to enter the password you set when you installed PostgreSQL.
+In order to run and view the server locally, you must create and setup a database. You may be prompted to enter the password you set when you installed PostgreSQL.
 
 ```
 psql -U postgres
